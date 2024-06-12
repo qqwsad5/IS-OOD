@@ -1,0 +1,2 @@
+./imagenet21k_val/n02326432/n02326432_10281.JPEG
+./imagenet21k_val/n03318983/n03318983_1103.JPEG

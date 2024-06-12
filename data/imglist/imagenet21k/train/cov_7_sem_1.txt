@@ -1,0 +1,4 @@
+./imagenet21k_train/n04141198/n04141198_473.JPEG
+./imagenet21k_train/n04241249/n04241249_2940.JPEG
+./imagenet21k_train/n04257223/n04257223_3380.JPEG
+./imagenet21k_train/n04257223/n04257223_3857.JPEG

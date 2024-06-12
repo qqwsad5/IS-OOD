@@ -1,0 +1,9 @@
+./imagenet21k_train/n01530575/n01530575_3371.JPEG
+./imagenet21k_train/n02480855/n02480855_16146.JPEG
+./imagenet21k_train/n03045228/n03045228_11942.JPEG
+./imagenet21k_train/n03470629/n03470629_197.JPEG
+./imagenet21k_train/n03662601/n03662601_184.JPEG
+./imagenet21k_train/n03928116/n03928116_4017.JPEG
+./imagenet21k_train/n04455652/n04455652_1858.JPEG
+./imagenet21k_train/n04536595/n04536595_999.JPEG
+./imagenet21k_train/n04587327/n04587327_7332.JPEG
