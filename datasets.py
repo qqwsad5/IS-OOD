@@ -34,13 +34,9 @@ def get_id_ood_dataloader_level_split(data_root, **loader_kwargs):
     DATASET_NUM_TH = 10
 
     # root of the datasets
-    # IN1K_ROOT = os.path.join(data_root, 'imagenet1k')
-    # IN21K_ROOT = os.path.join(data_root, 'imagenet21k')
-    # SynIS_ROOT = os.path.join(data_root, 'SynIS')
-
-    IN1K_ROOT = os.path.join('/SSD1/longxingming/OpenOOD/data/images_largescale/', 'imagenet_1k')
-    IN21K_ROOT = '/HDD0/longxingming/data/Imagenet21K/imagenet21k_resized/'
-    SynIS_ROOT = os.path.join('/HDD1/longxingming/data/sdxl_generated_texts_split/', 'SynIS')
+    IN1K_ROOT = os.path.join(data_root, 'imagenet1k')
+    IN21K_ROOT = os.path.join(data_root, 'imagenet21k')
+    SynIS_ROOT = os.path.join(data_root, 'SynIS')
 
     # augmentation for imagenet1k
     imagenet_1k_preprocessor = tvs.transforms.Compose([
