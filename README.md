@@ -1,6 +1,6 @@
 # Incremental Shift OOD (IS-OOD) Benchmark
 
-This repository is the PyTorch implementation of the IS-OOD benchmark mentioned in the paper [`Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox`](???),
+This repository is the PyTorch implementation of the IS-OOD benchmark mentioned in the paper [`Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox`](https://arxiv.org/abs/2406.09867),
 aiming to evaluate the performance of OOD detection models across different levels of semantic and covariate shifts.
 
 For convenience, this repository adopts the OOD detection APIs provided by [OpenOOD](https://github.com/Jingkang50/OpenOOD). Therefore, any OOD detection method implemented based on OpenOOD API can be evaluated in this benchmark. Try evaluating your own work on the benchmark!
@@ -10,7 +10,7 @@ For convenience, this repository adopts the OOD detection APIs provided by [Open
 ### Data and Checkpoint
 Download all the data and the checkpoint pre-trained on ImageNet-1K, and place them in the corresponding directories:
  - ImageNet-1K and ImageNet-21K datasets can be downloaded from official website [here](https://image-net.org/download.php).
- - Syn-IS dataset can be obtained from our [Drive](???).
+ - Syn-IS dataset can be obtained from our [Drive](https://drive.google.com/file/d/1AioO57kmyuyVLpW_6ycN5flFhgnfcrXI/view?usp=sharing).
  - The checkpoint file can be downloaded from official website [here](https://pytorch.org/vision/stable/models/generated/torchvision.models.resnet50.html#torchvision.models.ResNet50_Weights).
 
 Once you have prepared the data and the checkpoint, your directory should look like this:
@@ -44,11 +44,14 @@ python analyze_metrics.py --postprocessor msp --metric AUROC
 ---
 
 
-<!-- ## Citation
+## Citation
 If you find our repository useful for your research, please consider citing our paper:
 ```bibtex
-@article{long2024isood,
-  year={2024}
+@article{long2024rethinking,
+      title={Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox}, 
+      author={Xingming Long and Jie Zhang and Shiguang Shan and Xilin Chen},
+      year={2024},
+      journal={arXiv preprint arXiv:2406.09867}
 }
-``` -->
+```
 
