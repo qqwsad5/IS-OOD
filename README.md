@@ -10,7 +10,7 @@ For convenience, this repository adopts the OOD detection APIs provided by [Open
 ### Data and Checkpoint
 Download all the data and the checkpoint pre-trained on ImageNet-1K, and place them in the corresponding directories:
  - ImageNet-1K and ImageNet-21K datasets can be downloaded from official website [here](https://image-net.org/download.php).
- - Syn-IS dataset can be obtained from our [Drive](https://drive.google.com/file/d/1AioO57kmyuyVLpW_6ycN5flFhgnfcrXI/view?usp=sharing).
+ - Syn-IS dataset can be obtained from our [Drive](https://pan.baidu.com/s/1KAx4qnwr6UClYlEqp9Q9fg?pwd=e5i8).
  - The checkpoint file can be downloaded from official website [here](https://pytorch.org/vision/stable/models/generated/torchvision.models.resnet50.html#torchvision.models.ResNet50_Weights).
 
 Once you have prepared the data and the checkpoint, your directory should look like this:
